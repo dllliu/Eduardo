@@ -6,7 +6,33 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
+
+[System.Serializable]
+public class ResponseData
+{
+    public List<Candidate> candidates;
+}
+
+[System.Serializable]
+public class Candidate
+{
+    public Content content;
+}
+
+[System.Serializable]
+public class Content
+{
+    public List<Part> parts;
+    public string role;
+}
+
+[System.Serializable]
+public class Part
+{
+    public string text;
+}
 
 public class VoiceRecognition : MonoBehaviour
 {
@@ -15,7 +41,7 @@ public class VoiceRecognition : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text;
 
     //Environment.GetEnvironmentVariable("MY_API_KEY");
-    private string apiKey = "AIzaSyC5QgDS4JqgRmSg95iawPFKLaWBE5aWsa8";
+    private string apiKey = "";
     private string input = "";
     private AudioClip clip;
     private byte[] bytes;
@@ -79,9 +105,22 @@ public class VoiceRecognition : MonoBehaviour
 
     private IEnumerator SendPostRequest()
     {
-        string url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
+        string url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent";
         string finalUrl = $"{url}?key={apiKey}";
-        string json = $"{{\"contents\": [{{\"parts\":[{{\"text\": \"{input}\"}}]}}]}}";
+        string systemPrompt = "You are an expert topic finder. The user will ask a question or just ask about a subject. Just return the topic of the question (1-2 words).\ninput: How to swim?\noutput: swimming\ninput: Show me a baseball swing\noutput: baseball swing\ninput: CPR\noutput: CPR\ninput: Show me how to run\noutput: running\ninput: How to dance\noutput: dances\ninput: sleep\noutput: sleep\ninput: giving a presentation\noutput: presentation\ninput: i really like this song I heard\noutput: listening to music\ninput: how to play guitar\noutput: playing guitar";
+        string json = $@"
+    {{
+        ""system_instruction"": {{
+            ""parts"": [
+                {{ ""text"": ""{systemPrompt}"" }}
+            ]
+        }},
+        ""contents"": {{
+            ""parts"": [
+                {{ ""text"": ""{input}"" }}
+            ]
+        }}
+    }}";
         input = "";
 
         using (UnityWebRequest webRequest = new UnityWebRequest(finalUrl, "POST"))
@@ -96,7 +135,10 @@ public class VoiceRecognition : MonoBehaviour
             if (webRequest.result == UnityWebRequest.Result.Success)
             {
                 // Handle success
-                Debug.Log("Response: " + webRequest.downloadHandler.text);
+                //Debug.Log("Response: " + webRequest.downloadHandler.text);
+                string responseText = webRequest.downloadHandler.text;
+                ResponseData response = JsonUtility.FromJson<ResponseData>(responseText);
+                Debug.Log(response.candidates[0].content.parts[0].text);
             }
             else
             {
