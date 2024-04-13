@@ -16,7 +16,7 @@ async def generate_audio(text: str = Body(..., embed=True)):
             input=text
         )
 
-        file_name = 'speech.mp3'
+        file_name = 'speech.wav'
         response.stream_to_file(file_name)
         audio_link = Audio(file_name, autoplay=False)._repr_html_()
 
