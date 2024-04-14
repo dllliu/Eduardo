@@ -1,0 +1,569 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Amazon.Polly.AmazonPollyConfig::.ctor()
+extern void AmazonPollyConfig__ctor_mB823D44E6645E02399277CD94F7D045102DB1B63 (void);
+// 0x00000002 System.String Amazon.Polly.AmazonPollyConfig::get_RegionEndpointServiceName()
+extern void AmazonPollyConfig_get_RegionEndpointServiceName_mB5784083514E3FD04DAB71EF3EF7E036D6666CE7 (void);
+// 0x00000003 System.String Amazon.Polly.AmazonPollyConfig::get_UserAgent()
+extern void AmazonPollyConfig_get_UserAgent_m4EE9042A411667AD3AC51B462939A7EA1F2F4E9D (void);
+// 0x00000004 System.Void Amazon.Polly.AmazonPollyConfig::.cctor()
+extern void AmazonPollyConfig__cctor_m0F54B8A272FF11E39AB488381C281E3B8E75FBB9 (void);
+// 0x00000005 System.Collections.ObjectModel.ReadOnlyCollection`1<Amazon.Runtime.IDefaultConfiguration> Amazon.Polly.AmazonPollyDefaultConfiguration::GetAllConfigurations()
+extern void AmazonPollyDefaultConfiguration_GetAllConfigurations_m51867B7F4C69131AA18307F0313BCC43F7DEA7FC (void);
+// 0x00000006 Amazon.Runtime.IDefaultConfiguration Amazon.Polly.AmazonPollyDefaultConfiguration::get_Standard()
+extern void AmazonPollyDefaultConfiguration_get_Standard_mF0B1F16731469D43EB031F9F4E9EB52944F585DC (void);
+// 0x00000007 Amazon.Runtime.IDefaultConfiguration Amazon.Polly.AmazonPollyDefaultConfiguration::get_InRegion()
+extern void AmazonPollyDefaultConfiguration_get_InRegion_m6DF379ACCA5F7E4B68AC46A614163BE2A678C432 (void);
+// 0x00000008 Amazon.Runtime.IDefaultConfiguration Amazon.Polly.AmazonPollyDefaultConfiguration::get_CrossRegion()
+extern void AmazonPollyDefaultConfiguration_get_CrossRegion_m8FF2AD90A24718C84427154E657B5DFF6CAF2147 (void);
+// 0x00000009 Amazon.Runtime.IDefaultConfiguration Amazon.Polly.AmazonPollyDefaultConfiguration::get_Mobile()
+extern void AmazonPollyDefaultConfiguration_get_Mobile_mC2F5AF4D45BBE07BFA059547BEABA53A711C6661 (void);
+// 0x0000000A Amazon.Runtime.IDefaultConfiguration Amazon.Polly.AmazonPollyDefaultConfiguration::get_Auto()
+extern void AmazonPollyDefaultConfiguration_get_Auto_mA571F548987F36C1934B0ECED7421518D9707D5E (void);
+// 0x0000000B Amazon.Runtime.IDefaultConfiguration Amazon.Polly.AmazonPollyDefaultConfiguration::get_Legacy()
+extern void AmazonPollyDefaultConfiguration_get_Legacy_m8138C3DE1345C78FAE900D1BC069B79F370D6528 (void);
+// 0x0000000C System.Void Amazon.Polly.AmazonPollyDefaultConfiguration::.cctor()
+extern void AmazonPollyDefaultConfiguration__cctor_mA807626956E36D3785DF79CF2430D682F3320283 (void);
+// 0x0000000D System.Void Amazon.Polly.AmazonPollyException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void AmazonPollyException__ctor_m5657064D5AE41EF70472571BC9EEE4068100B325 (void);
+// 0x0000000E System.Void Amazon.Polly.AmazonPollyRequest::.ctor()
+extern void AmazonPollyRequest__ctor_mD66A02E145D5E617CB8F421A7314EB688C1290A3 (void);
+// 0x0000000F System.Void Amazon.Polly.Engine::.ctor(System.String)
+extern void Engine__ctor_m84A9DFE9E923411797B5E33A0062D8FC264FB828 (void);
+// 0x00000010 System.Void Amazon.Polly.Engine::.cctor()
+extern void Engine__cctor_m5581468A924B9E3ED6EA533FDE1D508AF1985771 (void);
+// 0x00000011 System.Void Amazon.Polly.LanguageCode::.ctor(System.String)
+extern void LanguageCode__ctor_m43CF4AE7A27B047F30A98315766E85B4F770F20A (void);
+// 0x00000012 System.Void Amazon.Polly.LanguageCode::.cctor()
+extern void LanguageCode__cctor_mE3E4A4E7C4144C0F690FB49BCBD897B56E954FA6 (void);
+// 0x00000013 System.Void Amazon.Polly.OutputFormat::.ctor(System.String)
+extern void OutputFormat__ctor_m7B7CD97DA3E6E04606407163E3D0A4DD56A6D76B (void);
+// 0x00000014 System.Void Amazon.Polly.OutputFormat::.cctor()
+extern void OutputFormat__cctor_m65AE75B1265625B5324E8A26D5DD2C777FFA65F5 (void);
+// 0x00000015 System.Void Amazon.Polly.TextType::.ctor(System.String)
+extern void TextType__ctor_mDA15CC71BD064DCEA2612298ABCC25C060FC53FB (void);
+// 0x00000016 System.Void Amazon.Polly.TextType::.cctor()
+extern void TextType__cctor_mB66790E55EA684A438FE6BA6BE465C8D14A25ED6 (void);
+// 0x00000017 System.Void Amazon.Polly.VoiceId::.ctor(System.String)
+extern void VoiceId__ctor_m36310F78A280406B140934B69019302F64951274 (void);
+// 0x00000018 System.Void Amazon.Polly.VoiceId::.cctor()
+extern void VoiceId__cctor_mB7FB5804D8874BA45BDEE63B98339BFFFB011190 (void);
+// 0x00000019 System.Void Amazon.Polly.AmazonPollyClient::.ctor(Amazon.Runtime.AWSCredentials,Amazon.RegionEndpoint)
+extern void AmazonPollyClient__ctor_m99DA35D070CD75805FBD9E958B4AE018299F0B02 (void);
+// 0x0000001A System.Void Amazon.Polly.AmazonPollyClient::.ctor(Amazon.Runtime.AWSCredentials,Amazon.Polly.AmazonPollyConfig)
+extern void AmazonPollyClient__ctor_mEBF2A052A022109D55AEE8C7A8358DBAFA7DF6FB (void);
+// 0x0000001B Amazon.Runtime.Internal.Auth.AbstractAWSSigner Amazon.Polly.AmazonPollyClient::CreateSigner()
+extern void AmazonPollyClient_CreateSigner_m6AC6C3F4D764F2A11DCA068AC4072449CFD4D261 (void);
+// 0x0000001C System.Void Amazon.Polly.AmazonPollyClient::CustomizeRuntimePipeline(Amazon.Runtime.Internal.RuntimePipeline)
+extern void AmazonPollyClient_CustomizeRuntimePipeline_m3A6598F2081F61C0E395D23764F2D564D2D37795 (void);
+// 0x0000001D Amazon.Runtime.Internal.IServiceMetadata Amazon.Polly.AmazonPollyClient::get_ServiceMetadata()
+extern void AmazonPollyClient_get_ServiceMetadata_m253B84E455D4656FBA1A644ED1C9B3228178418E (void);
+// 0x0000001E System.Void Amazon.Polly.AmazonPollyClient::Dispose(System.Boolean)
+extern void AmazonPollyClient_Dispose_mB44481A0ED6B9D0625E1CD29E27A85E661CEA665 (void);
+// 0x0000001F System.Threading.Tasks.Task`1<Amazon.Polly.Model.SynthesizeSpeechResponse> Amazon.Polly.AmazonPollyClient::SynthesizeSpeechAsync(Amazon.Polly.Model.SynthesizeSpeechRequest,System.Threading.CancellationToken)
+extern void AmazonPollyClient_SynthesizeSpeechAsync_mD408951D491821FCC7436D2313A9C11B160B8203 (void);
+// 0x00000020 System.Void Amazon.Polly.AmazonPollyClient::.cctor()
+extern void AmazonPollyClient__cctor_mFB75A7EC2D4AB8161D918C081044125AFD588F52 (void);
+// 0x00000021 System.Void Amazon.Polly.Model.EngineNotSupportedException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void EngineNotSupportedException__ctor_m1A764C79D71BDC3EAB61CD788329B8D7FF417733 (void);
+// 0x00000022 System.Void Amazon.Polly.Model.InvalidSampleRateException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void InvalidSampleRateException__ctor_m6036B321269AF95CA400B4A00A7F5268DAB39E58 (void);
+// 0x00000023 System.Void Amazon.Polly.Model.InvalidSsmlException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void InvalidSsmlException__ctor_m5D867C9B2B2EDF51F0A19245DEC7541B11E618CE (void);
+// 0x00000024 System.Void Amazon.Polly.Model.LanguageNotSupportedException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void LanguageNotSupportedException__ctor_m40B97FB185ABEB02C9EFB9509D2BA4F5A4E74886 (void);
+// 0x00000025 System.Void Amazon.Polly.Model.LexiconNotFoundException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void LexiconNotFoundException__ctor_m8D4A593948F5DA5433D9510389AD3A587889488E (void);
+// 0x00000026 System.Void Amazon.Polly.Model.MarksNotSupportedForFormatException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void MarksNotSupportedForFormatException__ctor_m58AAE1847A1088182A426089E5568E43FB39D9B1 (void);
+// 0x00000027 System.Void Amazon.Polly.Model.ServiceFailureException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void ServiceFailureException__ctor_m092A906D627B5C754BDA07F6C3744849F302194C (void);
+// 0x00000028 System.Void Amazon.Polly.Model.SsmlMarksNotSupportedForTextTypeException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void SsmlMarksNotSupportedForTextTypeException__ctor_mF8C777F6E809C66302FA744BB2C60BCAAB6EEA0D (void);
+// 0x00000029 Amazon.Polly.Engine Amazon.Polly.Model.SynthesizeSpeechRequest::get_Engine()
+extern void SynthesizeSpeechRequest_get_Engine_mE9EE1624E17CDAC6D60875A9B723B551623414A4 (void);
+// 0x0000002A System.Void Amazon.Polly.Model.SynthesizeSpeechRequest::set_Engine(Amazon.Polly.Engine)
+extern void SynthesizeSpeechRequest_set_Engine_m03471F1BC093BCE55CE525FD6419D00457741E76 (void);
+// 0x0000002B System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetEngine()
+extern void SynthesizeSpeechRequest_IsSetEngine_m5452E9C72D0582B80E899420F9774FE14CB3A156 (void);
+// 0x0000002C Amazon.Polly.LanguageCode Amazon.Polly.Model.SynthesizeSpeechRequest::get_LanguageCode()
+extern void SynthesizeSpeechRequest_get_LanguageCode_m187C5D5A686635ED88A1BD9E97A4B0202AABBF04 (void);
+// 0x0000002D System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetLanguageCode()
+extern void SynthesizeSpeechRequest_IsSetLanguageCode_m4C48F3B075DA48D2BB9A1E191512282FB6FA13A4 (void);
+// 0x0000002E System.Collections.Generic.List`1<System.String> Amazon.Polly.Model.SynthesizeSpeechRequest::get_LexiconNames()
+extern void SynthesizeSpeechRequest_get_LexiconNames_mFD5E7745DCA50609E75FE772BFA09EF3891CB5BA (void);
+// 0x0000002F System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetLexiconNames()
+extern void SynthesizeSpeechRequest_IsSetLexiconNames_m6333E87B2AF9A64ECE3F2EB7FF40E51CE66F3A19 (void);
+// 0x00000030 Amazon.Polly.OutputFormat Amazon.Polly.Model.SynthesizeSpeechRequest::get_OutputFormat()
+extern void SynthesizeSpeechRequest_get_OutputFormat_m3DB6B5D4E6A75392E450FE500313400B2473298D (void);
+// 0x00000031 System.Void Amazon.Polly.Model.SynthesizeSpeechRequest::set_OutputFormat(Amazon.Polly.OutputFormat)
+extern void SynthesizeSpeechRequest_set_OutputFormat_m8EB9137D031C922666DD1A42AB462DFA4B4DE8EB (void);
+// 0x00000032 System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetOutputFormat()
+extern void SynthesizeSpeechRequest_IsSetOutputFormat_mBA571AFBFAC271A8704A4380B92E3C791B984764 (void);
+// 0x00000033 System.String Amazon.Polly.Model.SynthesizeSpeechRequest::get_SampleRate()
+extern void SynthesizeSpeechRequest_get_SampleRate_m4852D6BDB9F6216184C7F28B2ACDCF579D30A302 (void);
+// 0x00000034 System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetSampleRate()
+extern void SynthesizeSpeechRequest_IsSetSampleRate_mF365C713772D0DEB96C0A9E35BB0E33250850B75 (void);
+// 0x00000035 System.Collections.Generic.List`1<System.String> Amazon.Polly.Model.SynthesizeSpeechRequest::get_SpeechMarkTypes()
+extern void SynthesizeSpeechRequest_get_SpeechMarkTypes_m2C82EC47BE5D4448A0E8E951F83D461FA80DAF35 (void);
+// 0x00000036 System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetSpeechMarkTypes()
+extern void SynthesizeSpeechRequest_IsSetSpeechMarkTypes_mF2499FEAFA51444C7A84AA6B8E28F94837A7349F (void);
+// 0x00000037 System.String Amazon.Polly.Model.SynthesizeSpeechRequest::get_Text()
+extern void SynthesizeSpeechRequest_get_Text_mEC635F6DE9207731725810588A4CA9B752951603 (void);
+// 0x00000038 System.Void Amazon.Polly.Model.SynthesizeSpeechRequest::set_Text(System.String)
+extern void SynthesizeSpeechRequest_set_Text_mA55E61C3629EBD632E0D638F0629334EE42B29A6 (void);
+// 0x00000039 System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetText()
+extern void SynthesizeSpeechRequest_IsSetText_mA2CACD17553A45D8AAB593AD944CF56BECCACBD6 (void);
+// 0x0000003A Amazon.Polly.TextType Amazon.Polly.Model.SynthesizeSpeechRequest::get_TextType()
+extern void SynthesizeSpeechRequest_get_TextType_mEF0C9DCDACB9D87A3DF70D3CE4B3D8E4D056954E (void);
+// 0x0000003B System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetTextType()
+extern void SynthesizeSpeechRequest_IsSetTextType_m01C11953C1847E905E09E342D8CB5B50A8210436 (void);
+// 0x0000003C Amazon.Polly.VoiceId Amazon.Polly.Model.SynthesizeSpeechRequest::get_VoiceId()
+extern void SynthesizeSpeechRequest_get_VoiceId_m624769A3CDC22841D77F133071ADBAF5C40A1BBF (void);
+// 0x0000003D System.Void Amazon.Polly.Model.SynthesizeSpeechRequest::set_VoiceId(Amazon.Polly.VoiceId)
+extern void SynthesizeSpeechRequest_set_VoiceId_m3AE604D01CFF1D86F388CC8966A3F6BD2D322E6A (void);
+// 0x0000003E System.Boolean Amazon.Polly.Model.SynthesizeSpeechRequest::IsSetVoiceId()
+extern void SynthesizeSpeechRequest_IsSetVoiceId_m6BB77E321E7CC48461B1C690EF3198E06338E038 (void);
+// 0x0000003F System.Void Amazon.Polly.Model.SynthesizeSpeechRequest::.ctor()
+extern void SynthesizeSpeechRequest__ctor_mBB00970E238235E7AD25B48C28A9218177F4B8AF (void);
+// 0x00000040 System.IO.Stream Amazon.Polly.Model.SynthesizeSpeechResponse::get_AudioStream()
+extern void SynthesizeSpeechResponse_get_AudioStream_m13B1361E93ED9DE6EDF34B03A2C82D49064BC9C2 (void);
+// 0x00000041 System.Void Amazon.Polly.Model.SynthesizeSpeechResponse::set_AudioStream(System.IO.Stream)
+extern void SynthesizeSpeechResponse_set_AudioStream_mD977318978C6CC4A32292504158B2CD04E2C7715 (void);
+// 0x00000042 System.Void Amazon.Polly.Model.SynthesizeSpeechResponse::set_ContentType(System.String)
+extern void SynthesizeSpeechResponse_set_ContentType_m07BCFF1E23C9FED5567B741551E6E63FC153B74B (void);
+// 0x00000043 System.Void Amazon.Polly.Model.SynthesizeSpeechResponse::set_RequestCharacters(System.Int32)
+extern void SynthesizeSpeechResponse_set_RequestCharacters_m9A24E0D6B307C5F350A7C5D2EBEF481B00B3EA8D (void);
+// 0x00000044 System.Void Amazon.Polly.Model.SynthesizeSpeechResponse::Dispose()
+extern void SynthesizeSpeechResponse_Dispose_mF879BA26C5A12F55CECDC83BE214B6D37774E444 (void);
+// 0x00000045 System.Void Amazon.Polly.Model.SynthesizeSpeechResponse::Dispose(System.Boolean)
+extern void SynthesizeSpeechResponse_Dispose_mE56A259603D73CA4648C7C2B3A4E531DD4D1467A (void);
+// 0x00000046 System.Void Amazon.Polly.Model.SynthesizeSpeechResponse::.ctor()
+extern void SynthesizeSpeechResponse__ctor_mBF9AFA7CEE0D5679C9FE31CD48DD88616D191E6F (void);
+// 0x00000047 System.Void Amazon.Polly.Model.TextLengthExceededException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void TextLengthExceededException__ctor_mF3CCC60D0353EBDD80E3897B461F8B85917C42D4 (void);
+// 0x00000048 Amazon.Polly.Model.EngineNotSupportedException Amazon.Polly.Model.Internal.MarshallTransformations.EngineNotSupportedExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void EngineNotSupportedExceptionUnmarshaller_Unmarshall_m2EEC0071A8A8C8CA1ED4065D493075669AC6EF4C (void);
+// 0x00000049 Amazon.Polly.Model.Internal.MarshallTransformations.EngineNotSupportedExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.EngineNotSupportedExceptionUnmarshaller::get_Instance()
+extern void EngineNotSupportedExceptionUnmarshaller_get_Instance_m7943CB237C344E5583F8888C404AB7749EBB4ADB (void);
+// 0x0000004A System.Void Amazon.Polly.Model.Internal.MarshallTransformations.EngineNotSupportedExceptionUnmarshaller::.ctor()
+extern void EngineNotSupportedExceptionUnmarshaller__ctor_m0F90427D9E52E3FBF45BD79908C133D6F8083FB8 (void);
+// 0x0000004B System.Void Amazon.Polly.Model.Internal.MarshallTransformations.EngineNotSupportedExceptionUnmarshaller::.cctor()
+extern void EngineNotSupportedExceptionUnmarshaller__cctor_m939BBB37238A62EC765EAC4D64C7D34BD414CDC0 (void);
+// 0x0000004C Amazon.Polly.Model.InvalidSampleRateException Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSampleRateExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void InvalidSampleRateExceptionUnmarshaller_Unmarshall_mB011C76971C3BE0AEEEBC54E9580EC263379D5A5 (void);
+// 0x0000004D Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSampleRateExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSampleRateExceptionUnmarshaller::get_Instance()
+extern void InvalidSampleRateExceptionUnmarshaller_get_Instance_m1B516544F25CF524061160A273CF9A0317A3AB9B (void);
+// 0x0000004E System.Void Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSampleRateExceptionUnmarshaller::.ctor()
+extern void InvalidSampleRateExceptionUnmarshaller__ctor_m7FC75CA92593DEA285834A56479BCC0AF8E6AD47 (void);
+// 0x0000004F System.Void Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSampleRateExceptionUnmarshaller::.cctor()
+extern void InvalidSampleRateExceptionUnmarshaller__cctor_m2FDF6D34934A7E767D61D44D1AA47191B4ADE272 (void);
+// 0x00000050 Amazon.Polly.Model.InvalidSsmlException Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSsmlExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void InvalidSsmlExceptionUnmarshaller_Unmarshall_mA72E234A040B0A08464DC7DE0C72A63CDEDC6F03 (void);
+// 0x00000051 Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSsmlExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSsmlExceptionUnmarshaller::get_Instance()
+extern void InvalidSsmlExceptionUnmarshaller_get_Instance_m6BD772B669CE38D472E925F0D8E465843F7464AD (void);
+// 0x00000052 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSsmlExceptionUnmarshaller::.ctor()
+extern void InvalidSsmlExceptionUnmarshaller__ctor_m754246FF9FF382E45F683F047D1E551331DB25D2 (void);
+// 0x00000053 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.InvalidSsmlExceptionUnmarshaller::.cctor()
+extern void InvalidSsmlExceptionUnmarshaller__cctor_mA05F260F77D992CD9C8D9BB500D87F2C66AD346E (void);
+// 0x00000054 Amazon.Polly.Model.LanguageNotSupportedException Amazon.Polly.Model.Internal.MarshallTransformations.LanguageNotSupportedExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void LanguageNotSupportedExceptionUnmarshaller_Unmarshall_m5A3EF906E7B3486C601E5A948D5A48FFEAFB4206 (void);
+// 0x00000055 Amazon.Polly.Model.Internal.MarshallTransformations.LanguageNotSupportedExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.LanguageNotSupportedExceptionUnmarshaller::get_Instance()
+extern void LanguageNotSupportedExceptionUnmarshaller_get_Instance_mCA34EF2B8469194A264449A561B8067B41B3153B (void);
+// 0x00000056 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.LanguageNotSupportedExceptionUnmarshaller::.ctor()
+extern void LanguageNotSupportedExceptionUnmarshaller__ctor_mD2A7C3C7E6DEBC07CC33CD3043351FD5920171F7 (void);
+// 0x00000057 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.LanguageNotSupportedExceptionUnmarshaller::.cctor()
+extern void LanguageNotSupportedExceptionUnmarshaller__cctor_m6FFDA6F064A1AC13BB68F02DF5BD16BDB7C4C79D (void);
+// 0x00000058 Amazon.Polly.Model.LexiconNotFoundException Amazon.Polly.Model.Internal.MarshallTransformations.LexiconNotFoundExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void LexiconNotFoundExceptionUnmarshaller_Unmarshall_mB35C21DE65742CE3017C19FC8FFCEFFDC0DACBDC (void);
+// 0x00000059 Amazon.Polly.Model.Internal.MarshallTransformations.LexiconNotFoundExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.LexiconNotFoundExceptionUnmarshaller::get_Instance()
+extern void LexiconNotFoundExceptionUnmarshaller_get_Instance_m1C5E824E8C2A522ECF6EF5CEA0F0873E52F82CD2 (void);
+// 0x0000005A System.Void Amazon.Polly.Model.Internal.MarshallTransformations.LexiconNotFoundExceptionUnmarshaller::.ctor()
+extern void LexiconNotFoundExceptionUnmarshaller__ctor_mD61062FF1376B8678792FD5B706663C0A13949DD (void);
+// 0x0000005B System.Void Amazon.Polly.Model.Internal.MarshallTransformations.LexiconNotFoundExceptionUnmarshaller::.cctor()
+extern void LexiconNotFoundExceptionUnmarshaller__cctor_m5A35EE13BBE52E7FC0B4F0BAD3B0E0A423729311 (void);
+// 0x0000005C Amazon.Polly.Model.MarksNotSupportedForFormatException Amazon.Polly.Model.Internal.MarshallTransformations.MarksNotSupportedForFormatExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void MarksNotSupportedForFormatExceptionUnmarshaller_Unmarshall_m11497E5467C13C221EA4D420E0F30CBEB560C08F (void);
+// 0x0000005D Amazon.Polly.Model.Internal.MarshallTransformations.MarksNotSupportedForFormatExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.MarksNotSupportedForFormatExceptionUnmarshaller::get_Instance()
+extern void MarksNotSupportedForFormatExceptionUnmarshaller_get_Instance_m2E4223781343E23A8FBFAD70AD2B3769F69110D2 (void);
+// 0x0000005E System.Void Amazon.Polly.Model.Internal.MarshallTransformations.MarksNotSupportedForFormatExceptionUnmarshaller::.ctor()
+extern void MarksNotSupportedForFormatExceptionUnmarshaller__ctor_m2664E0C2EBCBA31677606C2C5F0104C6E6712C96 (void);
+// 0x0000005F System.Void Amazon.Polly.Model.Internal.MarshallTransformations.MarksNotSupportedForFormatExceptionUnmarshaller::.cctor()
+extern void MarksNotSupportedForFormatExceptionUnmarshaller__cctor_mD9E123C1105D3CD2AB39237CBF41095949765E9D (void);
+// 0x00000060 Amazon.Polly.Model.ServiceFailureException Amazon.Polly.Model.Internal.MarshallTransformations.ServiceFailureExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void ServiceFailureExceptionUnmarshaller_Unmarshall_m9BF0B1BA4AE9DD4841B68CEF3A5EEA7316BAA41F (void);
+// 0x00000061 Amazon.Polly.Model.Internal.MarshallTransformations.ServiceFailureExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.ServiceFailureExceptionUnmarshaller::get_Instance()
+extern void ServiceFailureExceptionUnmarshaller_get_Instance_mC699657A5401AAF5D47262D55AFA19DDAB8CEBD1 (void);
+// 0x00000062 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.ServiceFailureExceptionUnmarshaller::.ctor()
+extern void ServiceFailureExceptionUnmarshaller__ctor_mDE8E88D2CE06FB4799FDCC7DA47A797F01B2414D (void);
+// 0x00000063 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.ServiceFailureExceptionUnmarshaller::.cctor()
+extern void ServiceFailureExceptionUnmarshaller__cctor_m01DB99CC89CAA566E5A20E874269BBB435A516A2 (void);
+// 0x00000064 Amazon.Polly.Model.SsmlMarksNotSupportedForTextTypeException Amazon.Polly.Model.Internal.MarshallTransformations.SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller_Unmarshall_m35EB34C132C0CF3FC0333B8CC25058E0BED8CFCF (void);
+// 0x00000065 Amazon.Polly.Model.Internal.MarshallTransformations.SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller::get_Instance()
+extern void SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller_get_Instance_m68C2B0517D12611590FAB5131391FE98F14724C6 (void);
+// 0x00000066 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller::.ctor()
+extern void SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller__ctor_mD76D266315D0C498BFBB8E6B18C8697F2BE56339 (void);
+// 0x00000067 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller::.cctor()
+extern void SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller__cctor_mBB1612A30379C068571A836B4A9830DF4FCD7C01 (void);
+// 0x00000068 Amazon.Runtime.Internal.IRequest Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechRequestMarshaller::Marshall(Amazon.Runtime.AmazonWebServiceRequest)
+extern void SynthesizeSpeechRequestMarshaller_Marshall_mC2B332625E578ACA252D771D052A4B90FA40C33F (void);
+// 0x00000069 Amazon.Runtime.Internal.IRequest Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechRequestMarshaller::Marshall(Amazon.Polly.Model.SynthesizeSpeechRequest)
+extern void SynthesizeSpeechRequestMarshaller_Marshall_mDAF167E0C0A0F8713DDEC7BB1C534D45D918A3A4 (void);
+// 0x0000006A Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechRequestMarshaller Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechRequestMarshaller::get_Instance()
+extern void SynthesizeSpeechRequestMarshaller_get_Instance_mFE51FE03E1A6E6252FD979941F6BFC574102B6F7 (void);
+// 0x0000006B System.Void Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechRequestMarshaller::.ctor()
+extern void SynthesizeSpeechRequestMarshaller__ctor_mD1B6AA666898C21C140AE21A6E8461AE879391E9 (void);
+// 0x0000006C System.Void Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechRequestMarshaller::.cctor()
+extern void SynthesizeSpeechRequestMarshaller__cctor_mDEE2AA0356BCE1BE3E67685BE651C3FB38BA7826 (void);
+// 0x0000006D Amazon.Runtime.AmazonWebServiceResponse Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechResponseUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)
+extern void SynthesizeSpeechResponseUnmarshaller_Unmarshall_m5388B12E8455C87270B018B06DF19766C0B37FA5 (void);
+// 0x0000006E Amazon.Runtime.AmazonServiceException Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechResponseUnmarshaller::UnmarshallException(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)
+extern void SynthesizeSpeechResponseUnmarshaller_UnmarshallException_m3B1208BE70A3335E4496CD7891B44C4E72EBD4D5 (void);
+// 0x0000006F System.Boolean Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechResponseUnmarshaller::get_HasStreamingProperty()
+extern void SynthesizeSpeechResponseUnmarshaller_get_HasStreamingProperty_m30561EC634497DF19511CC353F7A7CA22DAE7BF5 (void);
+// 0x00000070 Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechResponseUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechResponseUnmarshaller::get_Instance()
+extern void SynthesizeSpeechResponseUnmarshaller_get_Instance_mB555644578022680594B625E5B0B3C4ADDF0E941 (void);
+// 0x00000071 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechResponseUnmarshaller::.ctor()
+extern void SynthesizeSpeechResponseUnmarshaller__ctor_m126B9EB5320E072DE5AE59916B7998DBA303C6CB (void);
+// 0x00000072 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.SynthesizeSpeechResponseUnmarshaller::.cctor()
+extern void SynthesizeSpeechResponseUnmarshaller__cctor_m4B99F11A2B204C609D5EF4271AAF366E57E458AF (void);
+// 0x00000073 Amazon.Polly.Model.TextLengthExceededException Amazon.Polly.Model.Internal.MarshallTransformations.TextLengthExceededExceptionUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext,Amazon.Runtime.Internal.ErrorResponse)
+extern void TextLengthExceededExceptionUnmarshaller_Unmarshall_mC3B889394C4DED3F304523279A3387EED3BFD6AF (void);
+// 0x00000074 Amazon.Polly.Model.Internal.MarshallTransformations.TextLengthExceededExceptionUnmarshaller Amazon.Polly.Model.Internal.MarshallTransformations.TextLengthExceededExceptionUnmarshaller::get_Instance()
+extern void TextLengthExceededExceptionUnmarshaller_get_Instance_mE8B50BD343B7A9AE9D35B810263516517DB92A57 (void);
+// 0x00000075 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.TextLengthExceededExceptionUnmarshaller::.ctor()
+extern void TextLengthExceededExceptionUnmarshaller__ctor_m6511956BA7A7AFA45AF2CBCE231FCD2313484BF0 (void);
+// 0x00000076 System.Void Amazon.Polly.Model.Internal.MarshallTransformations.TextLengthExceededExceptionUnmarshaller::.cctor()
+extern void TextLengthExceededExceptionUnmarshaller__cctor_mE32300A2ECF4B457F09CBFBE4ED26C1D4EB63111 (void);
+// 0x00000077 Amazon.Runtime.Endpoints.Endpoint Amazon.Polly.Internal.AmazonPollyEndpointProvider::ResolveEndpoint(Amazon.Runtime.Endpoints.EndpointParameters)
+extern void AmazonPollyEndpointProvider_ResolveEndpoint_m3C7738E763F53AB7453133A8A6F7597A05371CDC (void);
+// 0x00000078 System.Void Amazon.Polly.Internal.AmazonPollyEndpointProvider::.ctor()
+extern void AmazonPollyEndpointProvider__ctor_m36261B5872037B43AE0E37B7513DD8CC1DBB1941 (void);
+// 0x00000079 System.Void Amazon.Polly.Internal.AmazonPollyEndpointResolver::ServiceSpecificHandler(Amazon.Runtime.IExecutionContext,Amazon.Runtime.Endpoints.EndpointParameters)
+extern void AmazonPollyEndpointResolver_ServiceSpecificHandler_m99B73DD812B239A4C41F44F820063ED8681A9A7A (void);
+// 0x0000007A Amazon.Runtime.Endpoints.EndpointParameters Amazon.Polly.Internal.AmazonPollyEndpointResolver::MapEndpointsParameters(Amazon.Runtime.IRequestContext)
+extern void AmazonPollyEndpointResolver_MapEndpointsParameters_mAA04A0BD7617F0AFA06E1090D3FA98EF2A445908 (void);
+// 0x0000007B System.Void Amazon.Polly.Internal.AmazonPollyEndpointResolver::.ctor()
+extern void AmazonPollyEndpointResolver__ctor_mF5B5AF7D31D3EA582A72327D0A54334EBA0AB843 (void);
+// 0x0000007C System.String Amazon.Polly.Internal.AmazonPollyMetadata::get_ServiceId()
+extern void AmazonPollyMetadata_get_ServiceId_m541A5F782AB011D34080F51A19F182D4C25AB85C (void);
+// 0x0000007D System.Collections.Generic.IDictionary`2<System.String,System.String> Amazon.Polly.Internal.AmazonPollyMetadata::get_OperationNameMapping()
+extern void AmazonPollyMetadata_get_OperationNameMapping_m9A84FC548BC267104DCA6D8F868E9ECDE2E9AEBF (void);
+// 0x0000007E System.Void Amazon.Polly.Internal.AmazonPollyMetadata::.ctor()
+extern void AmazonPollyMetadata__ctor_mC546968B2B9F9CD82E83BF72D2E0B7E5D0F1B3E8 (void);
+// 0x0000007F System.Void Amazon.Polly.Endpoints.PollyEndpointParameters::.ctor()
+extern void PollyEndpointParameters__ctor_mB6246945FEA7FDE792ED15FBD78D236FDB45FA2C (void);
+// 0x00000080 System.String Amazon.Polly.Endpoints.PollyEndpointParameters::get_Region()
+extern void PollyEndpointParameters_get_Region_mACD0840667891CD0C48A9CFC45001BB7F1FEAD50 (void);
+// 0x00000081 System.Void Amazon.Polly.Endpoints.PollyEndpointParameters::set_Region(System.String)
+extern void PollyEndpointParameters_set_Region_m18622442533FBD5DFA4D7A116F18C14E498FF3DC (void);
+// 0x00000082 System.Void Amazon.Polly.Endpoints.PollyEndpointParameters::set_UseDualStack(System.Nullable`1<System.Boolean>)
+extern void PollyEndpointParameters_set_UseDualStack_mA5725B03704759AB0516B951C516E612E7BFEA3D (void);
+// 0x00000083 System.Void Amazon.Polly.Endpoints.PollyEndpointParameters::set_UseFIPS(System.Nullable`1<System.Boolean>)
+extern void PollyEndpointParameters_set_UseFIPS_mBB043160AE7D00CDAE1D03BFBB2E721A1D7C0E35 (void);
+// 0x00000084 System.Void Amazon.Polly.Endpoints.PollyEndpointParameters::set_Endpoint(System.String)
+extern void PollyEndpointParameters_set_Endpoint_mAA0F3A9E80742552B199476FE9DCFFB560ED7F1E (void);
+static Il2CppMethodPointer s_methodPointers[132] = 
+{
+	AmazonPollyConfig__ctor_mB823D44E6645E02399277CD94F7D045102DB1B63,
+	AmazonPollyConfig_get_RegionEndpointServiceName_mB5784083514E3FD04DAB71EF3EF7E036D6666CE7,
+	AmazonPollyConfig_get_UserAgent_m4EE9042A411667AD3AC51B462939A7EA1F2F4E9D,
+	AmazonPollyConfig__cctor_m0F54B8A272FF11E39AB488381C281E3B8E75FBB9,
+	AmazonPollyDefaultConfiguration_GetAllConfigurations_m51867B7F4C69131AA18307F0313BCC43F7DEA7FC,
+	AmazonPollyDefaultConfiguration_get_Standard_mF0B1F16731469D43EB031F9F4E9EB52944F585DC,
+	AmazonPollyDefaultConfiguration_get_InRegion_m6DF379ACCA5F7E4B68AC46A614163BE2A678C432,
+	AmazonPollyDefaultConfiguration_get_CrossRegion_m8FF2AD90A24718C84427154E657B5DFF6CAF2147,
+	AmazonPollyDefaultConfiguration_get_Mobile_mC2F5AF4D45BBE07BFA059547BEABA53A711C6661,
+	AmazonPollyDefaultConfiguration_get_Auto_mA571F548987F36C1934B0ECED7421518D9707D5E,
+	AmazonPollyDefaultConfiguration_get_Legacy_m8138C3DE1345C78FAE900D1BC069B79F370D6528,
+	AmazonPollyDefaultConfiguration__cctor_mA807626956E36D3785DF79CF2430D682F3320283,
+	AmazonPollyException__ctor_m5657064D5AE41EF70472571BC9EEE4068100B325,
+	AmazonPollyRequest__ctor_mD66A02E145D5E617CB8F421A7314EB688C1290A3,
+	Engine__ctor_m84A9DFE9E923411797B5E33A0062D8FC264FB828,
+	Engine__cctor_m5581468A924B9E3ED6EA533FDE1D508AF1985771,
+	LanguageCode__ctor_m43CF4AE7A27B047F30A98315766E85B4F770F20A,
+	LanguageCode__cctor_mE3E4A4E7C4144C0F690FB49BCBD897B56E954FA6,
+	OutputFormat__ctor_m7B7CD97DA3E6E04606407163E3D0A4DD56A6D76B,
+	OutputFormat__cctor_m65AE75B1265625B5324E8A26D5DD2C777FFA65F5,
+	TextType__ctor_mDA15CC71BD064DCEA2612298ABCC25C060FC53FB,
+	TextType__cctor_mB66790E55EA684A438FE6BA6BE465C8D14A25ED6,
+	VoiceId__ctor_m36310F78A280406B140934B69019302F64951274,
+	VoiceId__cctor_mB7FB5804D8874BA45BDEE63B98339BFFFB011190,
+	AmazonPollyClient__ctor_m99DA35D070CD75805FBD9E958B4AE018299F0B02,
+	AmazonPollyClient__ctor_mEBF2A052A022109D55AEE8C7A8358DBAFA7DF6FB,
+	AmazonPollyClient_CreateSigner_m6AC6C3F4D764F2A11DCA068AC4072449CFD4D261,
+	AmazonPollyClient_CustomizeRuntimePipeline_m3A6598F2081F61C0E395D23764F2D564D2D37795,
+	AmazonPollyClient_get_ServiceMetadata_m253B84E455D4656FBA1A644ED1C9B3228178418E,
+	AmazonPollyClient_Dispose_mB44481A0ED6B9D0625E1CD29E27A85E661CEA665,
+	AmazonPollyClient_SynthesizeSpeechAsync_mD408951D491821FCC7436D2313A9C11B160B8203,
+	AmazonPollyClient__cctor_mFB75A7EC2D4AB8161D918C081044125AFD588F52,
+	EngineNotSupportedException__ctor_m1A764C79D71BDC3EAB61CD788329B8D7FF417733,
+	InvalidSampleRateException__ctor_m6036B321269AF95CA400B4A00A7F5268DAB39E58,
+	InvalidSsmlException__ctor_m5D867C9B2B2EDF51F0A19245DEC7541B11E618CE,
+	LanguageNotSupportedException__ctor_m40B97FB185ABEB02C9EFB9509D2BA4F5A4E74886,
+	LexiconNotFoundException__ctor_m8D4A593948F5DA5433D9510389AD3A587889488E,
+	MarksNotSupportedForFormatException__ctor_m58AAE1847A1088182A426089E5568E43FB39D9B1,
+	ServiceFailureException__ctor_m092A906D627B5C754BDA07F6C3744849F302194C,
+	SsmlMarksNotSupportedForTextTypeException__ctor_mF8C777F6E809C66302FA744BB2C60BCAAB6EEA0D,
+	SynthesizeSpeechRequest_get_Engine_mE9EE1624E17CDAC6D60875A9B723B551623414A4,
+	SynthesizeSpeechRequest_set_Engine_m03471F1BC093BCE55CE525FD6419D00457741E76,
+	SynthesizeSpeechRequest_IsSetEngine_m5452E9C72D0582B80E899420F9774FE14CB3A156,
+	SynthesizeSpeechRequest_get_LanguageCode_m187C5D5A686635ED88A1BD9E97A4B0202AABBF04,
+	SynthesizeSpeechRequest_IsSetLanguageCode_m4C48F3B075DA48D2BB9A1E191512282FB6FA13A4,
+	SynthesizeSpeechRequest_get_LexiconNames_mFD5E7745DCA50609E75FE772BFA09EF3891CB5BA,
+	SynthesizeSpeechRequest_IsSetLexiconNames_m6333E87B2AF9A64ECE3F2EB7FF40E51CE66F3A19,
+	SynthesizeSpeechRequest_get_OutputFormat_m3DB6B5D4E6A75392E450FE500313400B2473298D,
+	SynthesizeSpeechRequest_set_OutputFormat_m8EB9137D031C922666DD1A42AB462DFA4B4DE8EB,
+	SynthesizeSpeechRequest_IsSetOutputFormat_mBA571AFBFAC271A8704A4380B92E3C791B984764,
+	SynthesizeSpeechRequest_get_SampleRate_m4852D6BDB9F6216184C7F28B2ACDCF579D30A302,
+	SynthesizeSpeechRequest_IsSetSampleRate_mF365C713772D0DEB96C0A9E35BB0E33250850B75,
+	SynthesizeSpeechRequest_get_SpeechMarkTypes_m2C82EC47BE5D4448A0E8E951F83D461FA80DAF35,
+	SynthesizeSpeechRequest_IsSetSpeechMarkTypes_mF2499FEAFA51444C7A84AA6B8E28F94837A7349F,
+	SynthesizeSpeechRequest_get_Text_mEC635F6DE9207731725810588A4CA9B752951603,
+	SynthesizeSpeechRequest_set_Text_mA55E61C3629EBD632E0D638F0629334EE42B29A6,
+	SynthesizeSpeechRequest_IsSetText_mA2CACD17553A45D8AAB593AD944CF56BECCACBD6,
+	SynthesizeSpeechRequest_get_TextType_mEF0C9DCDACB9D87A3DF70D3CE4B3D8E4D056954E,
+	SynthesizeSpeechRequest_IsSetTextType_m01C11953C1847E905E09E342D8CB5B50A8210436,
+	SynthesizeSpeechRequest_get_VoiceId_m624769A3CDC22841D77F133071ADBAF5C40A1BBF,
+	SynthesizeSpeechRequest_set_VoiceId_m3AE604D01CFF1D86F388CC8966A3F6BD2D322E6A,
+	SynthesizeSpeechRequest_IsSetVoiceId_m6BB77E321E7CC48461B1C690EF3198E06338E038,
+	SynthesizeSpeechRequest__ctor_mBB00970E238235E7AD25B48C28A9218177F4B8AF,
+	SynthesizeSpeechResponse_get_AudioStream_m13B1361E93ED9DE6EDF34B03A2C82D49064BC9C2,
+	SynthesizeSpeechResponse_set_AudioStream_mD977318978C6CC4A32292504158B2CD04E2C7715,
+	SynthesizeSpeechResponse_set_ContentType_m07BCFF1E23C9FED5567B741551E6E63FC153B74B,
+	SynthesizeSpeechResponse_set_RequestCharacters_m9A24E0D6B307C5F350A7C5D2EBEF481B00B3EA8D,
+	SynthesizeSpeechResponse_Dispose_mF879BA26C5A12F55CECDC83BE214B6D37774E444,
+	SynthesizeSpeechResponse_Dispose_mE56A259603D73CA4648C7C2B3A4E531DD4D1467A,
+	SynthesizeSpeechResponse__ctor_mBF9AFA7CEE0D5679C9FE31CD48DD88616D191E6F,
+	TextLengthExceededException__ctor_mF3CCC60D0353EBDD80E3897B461F8B85917C42D4,
+	EngineNotSupportedExceptionUnmarshaller_Unmarshall_m2EEC0071A8A8C8CA1ED4065D493075669AC6EF4C,
+	EngineNotSupportedExceptionUnmarshaller_get_Instance_m7943CB237C344E5583F8888C404AB7749EBB4ADB,
+	EngineNotSupportedExceptionUnmarshaller__ctor_m0F90427D9E52E3FBF45BD79908C133D6F8083FB8,
+	EngineNotSupportedExceptionUnmarshaller__cctor_m939BBB37238A62EC765EAC4D64C7D34BD414CDC0,
+	InvalidSampleRateExceptionUnmarshaller_Unmarshall_mB011C76971C3BE0AEEEBC54E9580EC263379D5A5,
+	InvalidSampleRateExceptionUnmarshaller_get_Instance_m1B516544F25CF524061160A273CF9A0317A3AB9B,
+	InvalidSampleRateExceptionUnmarshaller__ctor_m7FC75CA92593DEA285834A56479BCC0AF8E6AD47,
+	InvalidSampleRateExceptionUnmarshaller__cctor_m2FDF6D34934A7E767D61D44D1AA47191B4ADE272,
+	InvalidSsmlExceptionUnmarshaller_Unmarshall_mA72E234A040B0A08464DC7DE0C72A63CDEDC6F03,
+	InvalidSsmlExceptionUnmarshaller_get_Instance_m6BD772B669CE38D472E925F0D8E465843F7464AD,
+	InvalidSsmlExceptionUnmarshaller__ctor_m754246FF9FF382E45F683F047D1E551331DB25D2,
+	InvalidSsmlExceptionUnmarshaller__cctor_mA05F260F77D992CD9C8D9BB500D87F2C66AD346E,
+	LanguageNotSupportedExceptionUnmarshaller_Unmarshall_m5A3EF906E7B3486C601E5A948D5A48FFEAFB4206,
+	LanguageNotSupportedExceptionUnmarshaller_get_Instance_mCA34EF2B8469194A264449A561B8067B41B3153B,
+	LanguageNotSupportedExceptionUnmarshaller__ctor_mD2A7C3C7E6DEBC07CC33CD3043351FD5920171F7,
+	LanguageNotSupportedExceptionUnmarshaller__cctor_m6FFDA6F064A1AC13BB68F02DF5BD16BDB7C4C79D,
+	LexiconNotFoundExceptionUnmarshaller_Unmarshall_mB35C21DE65742CE3017C19FC8FFCEFFDC0DACBDC,
+	LexiconNotFoundExceptionUnmarshaller_get_Instance_m1C5E824E8C2A522ECF6EF5CEA0F0873E52F82CD2,
+	LexiconNotFoundExceptionUnmarshaller__ctor_mD61062FF1376B8678792FD5B706663C0A13949DD,
+	LexiconNotFoundExceptionUnmarshaller__cctor_m5A35EE13BBE52E7FC0B4F0BAD3B0E0A423729311,
+	MarksNotSupportedForFormatExceptionUnmarshaller_Unmarshall_m11497E5467C13C221EA4D420E0F30CBEB560C08F,
+	MarksNotSupportedForFormatExceptionUnmarshaller_get_Instance_m2E4223781343E23A8FBFAD70AD2B3769F69110D2,
+	MarksNotSupportedForFormatExceptionUnmarshaller__ctor_m2664E0C2EBCBA31677606C2C5F0104C6E6712C96,
+	MarksNotSupportedForFormatExceptionUnmarshaller__cctor_mD9E123C1105D3CD2AB39237CBF41095949765E9D,
+	ServiceFailureExceptionUnmarshaller_Unmarshall_m9BF0B1BA4AE9DD4841B68CEF3A5EEA7316BAA41F,
+	ServiceFailureExceptionUnmarshaller_get_Instance_mC699657A5401AAF5D47262D55AFA19DDAB8CEBD1,
+	ServiceFailureExceptionUnmarshaller__ctor_mDE8E88D2CE06FB4799FDCC7DA47A797F01B2414D,
+	ServiceFailureExceptionUnmarshaller__cctor_m01DB99CC89CAA566E5A20E874269BBB435A516A2,
+	SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller_Unmarshall_m35EB34C132C0CF3FC0333B8CC25058E0BED8CFCF,
+	SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller_get_Instance_m68C2B0517D12611590FAB5131391FE98F14724C6,
+	SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller__ctor_mD76D266315D0C498BFBB8E6B18C8697F2BE56339,
+	SsmlMarksNotSupportedForTextTypeExceptionUnmarshaller__cctor_mBB1612A30379C068571A836B4A9830DF4FCD7C01,
+	SynthesizeSpeechRequestMarshaller_Marshall_mC2B332625E578ACA252D771D052A4B90FA40C33F,
+	SynthesizeSpeechRequestMarshaller_Marshall_mDAF167E0C0A0F8713DDEC7BB1C534D45D918A3A4,
+	SynthesizeSpeechRequestMarshaller_get_Instance_mFE51FE03E1A6E6252FD979941F6BFC574102B6F7,
+	SynthesizeSpeechRequestMarshaller__ctor_mD1B6AA666898C21C140AE21A6E8461AE879391E9,
+	SynthesizeSpeechRequestMarshaller__cctor_mDEE2AA0356BCE1BE3E67685BE651C3FB38BA7826,
+	SynthesizeSpeechResponseUnmarshaller_Unmarshall_m5388B12E8455C87270B018B06DF19766C0B37FA5,
+	SynthesizeSpeechResponseUnmarshaller_UnmarshallException_m3B1208BE70A3335E4496CD7891B44C4E72EBD4D5,
+	SynthesizeSpeechResponseUnmarshaller_get_HasStreamingProperty_m30561EC634497DF19511CC353F7A7CA22DAE7BF5,
+	SynthesizeSpeechResponseUnmarshaller_get_Instance_mB555644578022680594B625E5B0B3C4ADDF0E941,
+	SynthesizeSpeechResponseUnmarshaller__ctor_m126B9EB5320E072DE5AE59916B7998DBA303C6CB,
+	SynthesizeSpeechResponseUnmarshaller__cctor_m4B99F11A2B204C609D5EF4271AAF366E57E458AF,
+	TextLengthExceededExceptionUnmarshaller_Unmarshall_mC3B889394C4DED3F304523279A3387EED3BFD6AF,
+	TextLengthExceededExceptionUnmarshaller_get_Instance_mE8B50BD343B7A9AE9D35B810263516517DB92A57,
+	TextLengthExceededExceptionUnmarshaller__ctor_m6511956BA7A7AFA45AF2CBCE231FCD2313484BF0,
+	TextLengthExceededExceptionUnmarshaller__cctor_mE32300A2ECF4B457F09CBFBE4ED26C1D4EB63111,
+	AmazonPollyEndpointProvider_ResolveEndpoint_m3C7738E763F53AB7453133A8A6F7597A05371CDC,
+	AmazonPollyEndpointProvider__ctor_m36261B5872037B43AE0E37B7513DD8CC1DBB1941,
+	AmazonPollyEndpointResolver_ServiceSpecificHandler_m99B73DD812B239A4C41F44F820063ED8681A9A7A,
+	AmazonPollyEndpointResolver_MapEndpointsParameters_mAA04A0BD7617F0AFA06E1090D3FA98EF2A445908,
+	AmazonPollyEndpointResolver__ctor_mF5B5AF7D31D3EA582A72327D0A54334EBA0AB843,
+	AmazonPollyMetadata_get_ServiceId_m541A5F782AB011D34080F51A19F182D4C25AB85C,
+	AmazonPollyMetadata_get_OperationNameMapping_m9A84FC548BC267104DCA6D8F868E9ECDE2E9AEBF,
+	AmazonPollyMetadata__ctor_mC546968B2B9F9CD82E83BF72D2E0B7E5D0F1B3E8,
+	PollyEndpointParameters__ctor_mB6246945FEA7FDE792ED15FBD78D236FDB45FA2C,
+	PollyEndpointParameters_get_Region_mACD0840667891CD0C48A9CFC45001BB7F1FEAD50,
+	PollyEndpointParameters_set_Region_m18622442533FBD5DFA4D7A116F18C14E498FF3DC,
+	PollyEndpointParameters_set_UseDualStack_mA5725B03704759AB0516B951C516E612E7BFEA3D,
+	PollyEndpointParameters_set_UseFIPS_mBB043160AE7D00CDAE1D03BFBB2E721A1D7C0E35,
+	PollyEndpointParameters_set_Endpoint_mAA0F3A9E80742552B199476FE9DCFFB560ED7F1E,
+};
+static const int32_t s_InvokerIndices[132] = 
+{
+	6982,
+	6850,
+	6850,
+	10855,
+	10815,
+	10815,
+	10815,
+	10815,
+	10815,
+	10815,
+	10815,
+	10855,
+	291,
+	6982,
+	5552,
+	10855,
+	5552,
+	10855,
+	5552,
+	10855,
+	5552,
+	10855,
+	5552,
+	10855,
+	2988,
+	2988,
+	6850,
+	5552,
+	6850,
+	5442,
+	2293,
+	10855,
+	291,
+	291,
+	291,
+	291,
+	291,
+	291,
+	291,
+	291,
+	6850,
+	5552,
+	6739,
+	6850,
+	6739,
+	6850,
+	6739,
+	6850,
+	5552,
+	6739,
+	6850,
+	6739,
+	6850,
+	6739,
+	6850,
+	5552,
+	6739,
+	6850,
+	6739,
+	6850,
+	5552,
+	6739,
+	6982,
+	6850,
+	5552,
+	5552,
+	5515,
+	6982,
+	5442,
+	6982,
+	291,
+	2297,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	4868,
+	4868,
+	10815,
+	6982,
+	10855,
+	4868,
+	1389,
+	6739,
+	10815,
+	6982,
+	10855,
+	2297,
+	10815,
+	6982,
+	10855,
+	4868,
+	6982,
+	2988,
+	4868,
+	6982,
+	6850,
+	6850,
+	6982,
+	6982,
+	6850,
+	5552,
+	5291,
+	5291,
+	5552,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AWSSDK_Polly_CodeGenModule;
+const Il2CppCodeGenModule g_AWSSDK_Polly_CodeGenModule = 
+{
+	"AWSSDK.Polly.dll",
+	132,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

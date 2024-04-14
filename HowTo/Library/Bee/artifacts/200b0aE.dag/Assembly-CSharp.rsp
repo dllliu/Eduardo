@@ -386,6 +386,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.MagicLeap.ref.dll"
+"Assets/AnimationDependicies/Animation.cs"
 "Assets/ARCursor.cs"
 "Assets/ARObjectSpawner.cs"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
