@@ -10,5 +10,7 @@ Eduardo is an augmented reality app that guides users through learning new activ
 5. An animation will appear if a relevant animation was found.
 6. Feel free to add multiple animations to your environment or press 'Clear' to remove all animations.
 
+https://devpost.com/software/eduardo
+
 ## Demo Video
 [![Eduardo Demo](https://img.youtube.com/vi/_0GkK2rqTyQ/0.jpg)](https://www.youtube.com/watch?v=_0GkK2rqTyQ)
