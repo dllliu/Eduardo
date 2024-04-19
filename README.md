@@ -4,8 +4,11 @@ Eduardo is an augmented reality app that guides users through learning new activ
 
 ## How to use it
 1. Point the cursor to where you would like the animation to appear in your environment.
-2. Press 'Ask Eduardo'.
+2. Press 'How To'.
 3. Describe the skill you want to learn. ("How to do a push up?", "Show me how to kick a soccer ball.").
 4. Press 'Stop'.
 5. An animation will appear if a relevant animation was found.
 6. Feel free to add multiple animations to your environment or press 'Clear' to remove all animations.
+
+## Demo Video
+[![Eduardo Demo](https://img.youtube.com/vi/_0GkK2rqTyQ/0.jpg)](https://www.youtube.com/watch?v=_0GkK2rqTyQ)
